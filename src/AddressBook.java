@@ -4,7 +4,13 @@ public class AddressBook {
 
 	private ArrayList<BuddyInfo> buddyInfoList;
 	
-	
+	public static void main(String[] args) {
+		BuddyInfo buddyInfo = new BuddyInfo();
+		AddressBook addressBook = new AddressBook();
+		addressBook.addBuddy(buddyInfo);
+		addressBook.removeBuddy(buddyInfo);
+
+	}
 
 	public AddressBook() {
 		buddyInfoList = new ArrayList<BuddyInfo>();
