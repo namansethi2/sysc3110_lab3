@@ -8,7 +8,7 @@ public class AddressBook {
 
 	public AddressBook() {
 		buddyInfoList = new ArrayList<BuddyInfo>();
-		System.out.println("ADDRESS");
+		System.out.println("ADDRESS USED");
 	}
 
 
