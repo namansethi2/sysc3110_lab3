@@ -7,10 +7,18 @@ public class BuddyInfo {
 	
 
 
+	public BuddyInfo() {
+		phoneNumber = 000000000;
+		name = "John Doe";
+		address = "123 anywhere street";
+	}
+
 	public static void main(String[] args) {
 		BuddyInfo buddyInfo = new BuddyInfo();
-		buddyInfo.setName("Homer");
-		System.out.println("Hello " + buddyInfo.getName());
+		AddressBook addressBook = new AddressBook();
+		addressBook.addBuddy(buddyInfo);
+		addressBook.removeBuddy(buddyInfo);
+
 	}
 
 	public long getPhoneNumber() {

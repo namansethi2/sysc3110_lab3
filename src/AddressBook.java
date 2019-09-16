@@ -13,10 +13,10 @@ public class AddressBook {
 
 
 
-	private void addBuddy(BuddyInfo buddyInfo) {
+	public void addBuddy(BuddyInfo buddyInfo) {
 		buddyInfoList.add(buddyInfo);
 	}
-	private void removeBuddy(BuddyInfo buddyInfo) {
+	public void removeBuddy(BuddyInfo buddyInfo) {
 		buddyInfoList.remove(buddyInfo);
 	}
 	
