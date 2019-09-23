@@ -22,6 +22,9 @@ public class AddressBook {
 	public void addBuddy(BuddyInfo buddyInfo) {
 		buddyInfoList.add(buddyInfo);
 	}
+	public void addBuddy2(BuddyInfo buddyInfo) {
+		buddyInfoList.add(buddyInfo);
+	}
 	public void removeBuddy(BuddyInfo buddyInfo) {
 		buddyInfoList.remove(buddyInfo);
 	}
